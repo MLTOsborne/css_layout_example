@@ -12,7 +12,7 @@
                 }
                 
                 li {
-                    display: inline;
+                    display: inline-block;
                 }
         </style>
     </head>
@@ -21,22 +21,39 @@
         <main>
              <div class='container'>
                      <nav>
-                         <a="Greg's List">Greg's List class='logo'</a>
-                         <a href="Post">Post</a>
-                         <a href="Account">Account</a>
-                     </nav>
+                         <ul>
+                             <li>Greg's List</li>
+                             <li-one>Account</li-one>
+                             <li-two>Post</li-two>
+                         </ul>
+                    </nav>
             </div>
            
             <div>
-                <Label><a>Search Jobs</a></Label>
-                <input>placeholder="Search software jobs"</input>  
-                <img src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.5.6_challenge_design_to_code/magnifying-glass.png" class="right">       
+                <Label><a>Search Jobs</a></Label> 
             </div>
+
             <div class='container-two'>
-            <div class='inner-one'>
-            <div class='inner-two'>
-            <div class='inner-three'>
+                    <input type="text" placeholder="Search software jobs" >
             </div>
+            
+            <div class='container-three'>
+                    <!--*need to find way to add magnifying-glass img into input; img file is 
+                    img src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.5.6_challenge_design_to_code/magnifying-glass.png" -->
+            </div>
+
+            <!--populate inners with prev, result range, next; 
+            add rounded border to container in css-->
+            <div></div>
+                <div class='container-four'>
+                <div class='inner-one'>
+                <div class='inner-two'>
+                <div class='inner-three'>
+            </div>
+           
+            <!--add three job search results as a list below-->
+            <ul>
+                <li></li>
         </main>
     </body>
 </html>
