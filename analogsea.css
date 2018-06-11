@@ -1,16 +1,22 @@
 main{
     background-color: cornflowerblue;
-}
+    width: 100%;
+    }
 
 img src{
-    position: center;
     height: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .container{
+    /*need to figure out display and position here 
+    to fix alignment*/
     width: 320px;
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: aliceblue;
     border-radius: 5px;
 }
@@ -18,9 +24,27 @@ img src{
 .signup{
     height: 35px;
     color: slategray;
+    margin-bottom: 15px;
+   }
+
+Email{
+    height: 12px;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.email{
+input{
+    width: 186px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px;
+    border-color: gray;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+Password{
     height: 12px;
     color: black;
     padding-top: 15px;
@@ -37,33 +61,22 @@ input{
     background-color: lightgray;
 }
 
-.password{
-    height: 12px;
-    color: black;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-input{
-    width: 186px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border:2px;
-    border-color: gray;
-    border-radius: 5px;
-    background-color: lightgray;
-}
-
-.btn signup{
-    width: 186px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border:2px;
-    border-radius: 5px;
+Sign Up{   
     background-color: mediumspringgreen;
-    color: bold white 14px;
+    color: bold white;
+    width: 186px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border:2px;
+    border-radius: 5px;
+    cursor: pointer;
 }
+                    
+
+
 
 .account{
     color: bold white 12px;
-)
+}
