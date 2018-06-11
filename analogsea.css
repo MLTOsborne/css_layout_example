@@ -1,0 +1,69 @@
+main{
+    background-color: cornflowerblue;
+}
+
+img src{
+    position: center;
+    height: 35px;
+}
+
+.container{
+    width: 320px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+.signup{
+    height: 35px;
+    color: slategray;
+}
+
+.email{
+    height: 12px;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+input{
+    width: 186px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border:2px;
+    border-color: gray;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+.password{
+    height: 12px;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+input{
+    width: 186px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border:2px;
+    border-color: gray;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+.btn signup{
+    width: 186px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border:2px;
+    border-radius: 5px;
+    background-color: mediumspringgreen;
+    color: bold white 14px;
+}
+
+.account{
+    color: bold white 12px;
+)
