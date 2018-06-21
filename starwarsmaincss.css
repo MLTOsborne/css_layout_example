@@ -1,0 +1,38 @@
+.container_12 {
+    border: 1px moccasin;
+    background-color: moccasin;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+
+h1 {
+    font-size: 16px;
+    color: bold black;
+    float: left;
+}
+
+h2 {
+    font-size: 12px;
+    color: bold black;
+    float: left;
+}
+
+img {
+      float: left;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      width: 444px;
+      height: 444px;
+}
+
+.box {
+    border: 1px light grey;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+
+

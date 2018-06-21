@@ -1,0 +1,65 @@
+main {
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 100%
+     }
+
+.container {
+    top: 0;
+    width: 100%;
+    height: auto;
+    padding-top:10;
+    padding-bottom:10;
+    position: fixed;
+    background-color: lightgray;
+}
+    
+nav ul li:first-child { 
+    float: left; 
+    color:black;
+    font-size:16px; 
+    /*why does width of any value cause this item to overflow?*/
+        }
+
+nav ul li-one { 
+  float: right;
+  color: purple;
+  width: 100px;
+  }
+
+nav ul li-two { 
+    float: right;
+    color: purple;
+    width: 40;
+     }
+
+label {
+    color: black;
+    font-size: 12px;
+    left: 70px;
+    top:40;
+    padding-top: 60px;
+    position: relative;
+}
+
+.container-two {
+    border: lightgrey;
+    top:50;
+    height: 14px;
+    left: 70px;
+    width: 800px;
+    position: relative; 
+}
+
+input[type="container-two"] {
+    position: relative;
+    left: 70px;
+    color: lightslategrey;
+}
+
+.placeholder {
+    color: light grey;
+    font-size: 16px;
+    display: inline-block;
+    }
+
