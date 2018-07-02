@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+  }
+
+.banner {
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 80%;
+    margin: auto;
+    float: left;
+    background-color: moccasin;
+}
+  
+.row {
+    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+
+h1 {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+
+}
+
+h2 {
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Clearfix */
+.row::before,
+.row::after {
+  display: table;
+  content: '';
+}
+
+.row::after {
+  clear: both;
+}
+
+.col-12, .col-4: {
+  float: left;
+  width: 2.1621%;
+  height: 2.1621%;
+}
+
+  /* Non-mobile, grid */
+@media screen and (min-width: 800px) { 
+  
+    /* 12 columns wide */
+ .col-12 {
+  max-width: 100%;
+}
+
+    img {
+        vertical-align: middle;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        
+      }
+
+    .box {
+        border: 1px solid grey;
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+    
+/*The mobile version include 4-column width images, 
+so when the viewport is over 640px, these 4-col width images 
+should each take up 33.33% of the parent row element's width.*/
+    @media screen and (min-width: 640px) {
+.col-4 {
+    min-width: 33.33%;
+}
+    
+    img {
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    }
+    
+    .box {
+    border: 1px solid grey;
+    font-size: 14px;
+    padding-bottom: 20px;
+    }
+    
+    .responsive {
+    width: 100%;
+    height: auto;
+    }
+
