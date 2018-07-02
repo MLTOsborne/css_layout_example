@@ -70,22 +70,6 @@ https://www.w3schools.com/Css/css_rwd_mediaqueries.asp*/
 
     
 
-    .box {
-        border: 1px solid grey;
-        font-size: 14px;
-        padding-bottom: 20px;
-    }
-
-    img {
-        vertical-align: middle;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 20px;
-        width: 100%;
-        height: auto;
-        
-      }
-
     .responsive {
         width: 100%;
         height: auto;
