@@ -1,0 +1,45 @@
+.banner {
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: moccasin;
+}
+
+.row {
+    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+
+h1 {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+
+
+img {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      max-width: 80%;
+}
+
+.box {
+    border: 1px solid grey;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+
+
