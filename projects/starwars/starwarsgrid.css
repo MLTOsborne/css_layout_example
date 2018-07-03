@@ -22,9 +22,12 @@
   clear: both;
 }
 
-.col-4,.col-12:  {
+.col-3, .col-4, .col-6, .col-12  {
   float: left;
- 
+ /*plus half a gutter on each side. 1/2 gutter = 10px. 
+ 10px / 960px (the full space for content) = 1.041666%*/
+ padding-left: 1.041666%;
+ padding-right: 1.041666%;
 }
 
 /*The following is more than I need to include in this assignment 
@@ -68,12 +71,6 @@ https://www.w3schools.com/Css/css_rwd_mediaqueries.asp*/
     .col-12 {width: 100%;}
 }
 
-    
-
-    .responsive {
-        width: 100%;
-        height: auto;
-    }
-    
+      
  
 
