@@ -26,8 +26,8 @@
   float: left;
  /*plus half a gutter on each side. 1/2 gutter = 10px. 
  10px / 960px (the full space for content) = 1.041666%*/
- padding-left: 1.041666%;
- padding-right: 1.041666%;
+ padding-left: 10px;
+ padding-right: 10px;
 }
 
 /*The following is more than I need to include in this assignment 
@@ -36,10 +36,20 @@ serve as a useful reference in future CSS grids so I'm including it here
 to start the habit of using it. I pulled this from the explanation of media queries:
 https://www.w3schools.com/Css/css_rwd_mediaqueries.asp*/
 
-/* For mobile phones: */
+/* For mobile phones - ALWAYS DESIGN FOR MOBILE FIRST!!!: */
 [class*="col-"] {
     width: 100%;
 }
+
+@media only screen and (min-width:320px){
+  h1 {
+    font-size: 18px;
+  }
+  h2{
+    font-size: 14px;
+  }
+}
+
 @media only screen and (min-width: 600px) {
     /* For tablets: */
     .col-s-1 {width: 8.33%;}
@@ -54,7 +64,8 @@ https://www.w3schools.com/Css/css_rwd_mediaqueries.asp*/
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
-}
+    }
+
 @media only screen and (min-width: 768px) {
     /* For desktop: */
     .col-1 {width: 8.33%;}
