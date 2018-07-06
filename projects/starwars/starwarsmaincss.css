@@ -1,9 +1,9 @@
 header {
-    padding-bottom: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 1000px;
-    margin: auto;
+    padding-bottom: 20px;
+    width: 100%;
+    top:0;
+    left:0;
+    position: absolute;
     background-color: gold;
 }
 
@@ -25,19 +25,29 @@ h1 {
     margin-bottom: 0;
 }
 
+
 h2 {
     line-height: 0;
     margin-top: 0.5em;
 }
 
+
 .card {
     border: 1px solid grey;
-       margin-bottom: 20px;
+       margin-top: 80px;
+       margin-bottom: -60px;
+       /*Using margin-top here (with a positive measurement) and 
+       margin-bottom here (with a negative measurement) I was able to 
+       create necessary space between the header and the cards. I tried 
+       to creat this space in the header's CSS with no effect, for reasons
+       that are not clear to me.*/
 }
+
 
 .card-image {
     width: 100%;
 }
+
 
 .card-content {
     padding: 20px;
@@ -51,6 +61,7 @@ h3 {
 
 p {
     margin: 0.5em 0;
+    font-size: 14px;
 }
 
 
